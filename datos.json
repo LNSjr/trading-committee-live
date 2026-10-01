@@ -1,0 +1,1759 @@
+{
+ "version": 2,
+ "generado": "2026-10-03T21:00:10Z",
+ "sistema": {
+  "modo": "real",
+  "en_real_desde": "2026-10-01T23:00:00Z",
+  "version_codigo": "4e5a0a2",
+  "mt5": {
+   "conectado": true,
+   "trading_algoritmico": true
+  },
+  "ultimo_ciclo": {
+   "inicio": "2026-10-03T21:00:10Z",
+   "fin": "2026-10-03T21:00:10Z",
+   "fases_con_fallo": [],
+   "comite_responde": null
+  },
+  "proximo_ciclo": "2026-10-03T22:00:10Z",
+  "simbolos": [
+   "ES",
+   "6E",
+   "GC",
+   "CL",
+   "ZN"
+  ],
+  "comite": [
+   {
+    "familia": "Google",
+    "modelo": "google/gemini-3.8-flash"
+   },
+   {
+    "familia": "Anthropic",
+    "modelo": "anthropic/claude-sonnet-5.5"
+   },
+   {
+    "familia": "OpenAI",
+    "modelo": "openai/gpt-6-sol"
+   },
+   {
+    "familia": "DeepSeek",
+    "modelo": "deepseek/deepseek-v4-pro-0813"
+   },
+   {
+    "familia": "Xiaomi",
+    "modelo": "xiaomi/mimo-v2.6-flash"
+   }
+  ],
+  "reglas": {
+   "riesgo_por_operacion_pct": 0.5,
+   "sl_atr": 1.5,
+   "tp_atr": 1.5,
+   "horizonte_horas": 4.0,
+   "umbral_votos": 3
+  }
+ },
+ "rendimiento": {
+  "operaciones": 10,
+  "acierto_pct": 50.0,
+  "r_total": 0.26,
+  "r_medio": 0.03,
+  "rentabilidad_pct": 0.128,
+  "profit_factor": 1.09,
+  "caida_maxima_pct": 0.496,
+  "mejor_r": 1.04,
+  "peor_r": -1.02,
+  "curva": [
+   {
+    "t": "2026-10-02T05:00:13Z",
+    "pct": -0.388,
+    "r": -0.79
+   },
+   {
+    "t": "2026-10-02T07:57:50Z",
+    "pct": 0.037,
+    "r": 0.25
+   },
+   {
+    "t": "2026-10-02T09:00:13Z",
+    "pct": -0.212,
+    "r": -0.27
+   },
+   {
+    "t": "2026-10-02T09:00:13Z",
+    "pct": -0.187,
+    "r": -0.22
+   },
+   {
+    "t": "2026-10-02T11:04:56Z",
+    "pct": 0.299,
+    "r": 0.76
+   },
+   {
+    "t": "2026-10-02T13:00:13Z",
+    "pct": 0.402,
+    "r": 0.97
+   },
+   {
+    "t": "2026-10-02T14:08:34Z",
+    "pct": -0.096,
+    "r": -0.05
+   },
+   {
+    "t": "2026-10-02T17:26:32Z",
+    "pct": 0.371,
+    "r": 0.93
+   },
+   {
+    "t": "2026-10-02T20:00:13Z",
+    "pct": 0.311,
+    "r": 0.8
+   },
+   {
+    "t": "2026-10-02T20:00:14Z",
+    "pct": 0.128,
+    "r": 0.26
+   }
+  ],
+  "abiertas": 0,
+  "desde": "2026-10-02T01:00:50Z",
+  "error_tipico": 0.242,
+  "frente_a_simulado": {
+   "operaciones": 10,
+   "curva": [
+    {
+     "t": "2026-10-02T05:00:13Z",
+     "real": -0.79,
+     "simulado": -0.79
+    },
+    {
+     "t": "2026-10-02T07:57:50Z",
+     "real": 0.25,
+     "simulado": 0.2
+    },
+    {
+     "t": "2026-10-02T09:00:13Z",
+     "real": -0.27,
+     "simulado": -0.39
+    },
+    {
+     "t": "2026-10-02T09:00:13Z",
+     "real": -0.22,
+     "simulado": -0.39
+    },
+    {
+     "t": "2026-10-02T11:04:56Z",
+     "real": 0.76,
+     "simulado": 0.59
+    },
+    {
+     "t": "2026-10-02T13:00:13Z",
+     "real": 0.97,
+     "simulado": 0.56
+    },
+    {
+     "t": "2026-10-02T14:08:34Z",
+     "real": -0.05,
+     "simulado": 0.77
+    },
+    {
+     "t": "2026-10-02T17:26:32Z",
+     "real": 0.93,
+     "simulado": 1.75
+    },
+    {
+     "t": "2026-10-02T20:00:13Z",
+     "real": 0.8,
+     "simulado": 1.72
+    },
+    {
+     "t": "2026-10-02T20:00:14Z",
+     "real": 0.26,
+     "simulado": 1.19
+    }
+   ],
+   "diferencia_media": -0.093
+  }
+ },
+ "por_simbolo": [
+  {
+   "simbolo": "ES",
+   "operaciones": 1,
+   "acierto_pct": 0.0,
+   "r_total": -0.52,
+   "rentabilidad_pct": -0.249
+  },
+  {
+   "simbolo": "6E",
+   "operaciones": 5,
+   "acierto_pct": 40.0,
+   "r_total": -0.91,
+   "rentabilidad_pct": -0.434
+  },
+  {
+   "simbolo": "GC",
+   "operaciones": 1,
+   "acierto_pct": 0.0,
+   "r_total": -0.54,
+   "rentabilidad_pct": -0.182
+  },
+  {
+   "simbolo": "CL",
+   "operaciones": 2,
+   "acierto_pct": 100.0,
+   "r_total": 1.25,
+   "rentabilidad_pct": 0.529
+  },
+  {
+   "simbolo": "ZN",
+   "operaciones": 1,
+   "acierto_pct": 100.0,
+   "r_total": 0.98,
+   "rentabilidad_pct": 0.468
+  }
+ ],
+ "por_ia": [
+  {
+   "familia": "Google",
+   "modelo": "google/gemini-3.8-flash",
+   "desde": "2026-10-01T23:00:45Z",
+   "votos": {
+    "COMPRAR": 0,
+    "VENDER": 8,
+    "NADA": 68,
+    "FALLO": 0
+   },
+   "apoyo": {
+    "operaciones": 6,
+    "r_total": 0.34,
+    "acierto_pct": 50.0
+   },
+   "contra": {
+    "operaciones": 0,
+    "r_total": 0.0
+   }
+  },
+  {
+   "familia": "Anthropic",
+   "modelo": "anthropic/claude-sonnet-5.5",
+   "desde": "2026-10-01T23:00:45Z",
+   "votos": {
+    "COMPRAR": 0,
+    "VENDER": 1,
+    "NADA": 75,
+    "FALLO": 0
+   },
+   "apoyo": {
+    "operaciones": 1,
+    "r_total": -0.79,
+    "acierto_pct": 0.0
+   },
+   "contra": {
+    "operaciones": 0,
+    "r_total": 0.0
+   }
+  },
+  {
+   "familia": "OpenAI",
+   "modelo": "openai/gpt-6-sol",
+   "desde": "2026-10-01T23:00:45Z",
+   "votos": {
+    "COMPRAR": 2,
+    "VENDER": 23,
+    "NADA": 51,
+    "FALLO": 0
+   },
+   "apoyo": {
+    "operaciones": 10,
+    "r_total": 0.26,
+    "acierto_pct": 50.0
+   },
+   "contra": {
+    "operaciones": 0,
+    "r_total": 0.0
+   }
+  },
+  {
+   "familia": "DeepSeek",
+   "modelo": "deepseek/deepseek-v4-pro-0813",
+   "desde": "2026-10-01T23:00:45Z",
+   "votos": {
+    "COMPRAR": 5,
+    "VENDER": 20,
+    "NADA": 46,
+    "FALLO": 5
+   },
+   "apoyo": {
+    "operaciones": 9,
+    "r_total": 0.39,
+    "acierto_pct": 55.6
+   },
+   "contra": {
+    "operaciones": 0,
+    "r_total": 0.0
+   }
+  },
+  {
+   "familia": "Xiaomi",
+   "modelo": "xiaomi/mimo-v2.6-flash",
+   "desde": "2026-10-01T23:00:45Z",
+   "votos": {
+    "COMPRAR": 1,
+    "VENDER": 18,
+    "NADA": 46,
+    "FALLO": 11
+   },
+   "apoyo": {
+    "operaciones": 7,
+    "r_total": 1.52,
+    "acierto_pct": 57.1
+   },
+   "contra": {
+    "operaciones": 0,
+    "r_total": 0.0
+   }
+  }
+ ],
+ "abiertas": [],
+ "cerradas": [
+  {
+   "simbolo": "GC",
+   "contrato": "GC_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T16:01:34Z",
+   "cierre": "2026-10-02T20:00:14Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 4158.7,
+   "precio_cierre": 4176.8,
+   "r": -0.54,
+   "pct": -0.182,
+   "r_simulado": -0.53,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 94
+  },
+  {
+   "simbolo": "6E",
+   "contrato": "6E_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T16:01:33Z",
+   "cierre": "2026-10-02T20:00:13Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 1.12905,
+   "precio_cierre": 1.12935,
+   "r": -0.13,
+   "pct": -0.06,
+   "r_simulado": -0.03,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 94
+  },
+  {
+   "simbolo": "ZN",
+   "contrato": "ZN_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T15:01:14Z",
+   "cierre": "2026-10-02T17:26:32Z",
+   "motivo_cierre": "tp",
+   "precio_apertura": 104.546875,
+   "precio_cierre": 104.28125,
+   "r": 0.98,
+   "pct": 0.468,
+   "r_simulado": 0.98,
+   "salida_simulada": "tp",
+   "segundos_entrada": 74
+  },
+  {
+   "simbolo": "6E",
+   "contrato": "6E_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T13:01:09Z",
+   "cierre": "2026-10-02T14:08:34Z",
+   "motivo_cierre": "sl",
+   "precio_apertura": 1.12935,
+   "precio_cierre": 1.1318,
+   "r": -1.02,
+   "pct": -0.496,
+   "r_simulado": 0.21,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 69
+  },
+  {
+   "simbolo": "CL",
+   "contrato": "CL_X",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T09:00:55Z",
+   "cierre": "2026-10-02T13:00:13Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 89.31,
+   "precio_cierre": 89.05,
+   "r": 0.21,
+   "pct": 0.102,
+   "r_simulado": -0.03,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 56
+  },
+  {
+   "simbolo": "6E",
+   "contrato": "6E_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T09:00:55Z",
+   "cierre": "2026-10-02T11:04:56Z",
+   "motivo_cierre": "tp",
+   "precio_apertura": 1.1284,
+   "precio_cierre": 1.1262,
+   "r": 0.98,
+   "pct": 0.487,
+   "r_simulado": 0.98,
+   "salida_simulada": "tp",
+   "segundos_entrada": 56
+  },
+  {
+   "simbolo": "6E",
+   "contrato": "6E_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T05:01:09Z",
+   "cierre": "2026-10-02T09:00:13Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 1.12865,
+   "precio_cierre": 1.1285,
+   "r": 0.05,
+   "pct": 0.025,
+   "r_simulado": 0.0,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 69
+  },
+  {
+   "simbolo": "ES",
+   "contrato": "ES_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T05:01:09Z",
+   "cierre": "2026-10-02T09:00:13Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 7749.5,
+   "precio_cierre": 7761.75,
+   "r": -0.52,
+   "pct": -0.249,
+   "r_simulado": -0.59,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 69
+  },
+  {
+   "simbolo": "CL",
+   "contrato": "CL_X",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T07:00:57Z",
+   "cierre": "2026-10-02T07:57:50Z",
+   "motivo_cierre": "tp",
+   "precio_apertura": 91.61,
+   "precio_cierre": 90.54,
+   "r": 1.04,
+   "pct": 0.427,
+   "r_simulado": 0.99,
+   "salida_simulada": "tp",
+   "segundos_entrada": 57
+  },
+  {
+   "simbolo": "6E",
+   "contrato": "6E_Z",
+   "lado": "VENTA",
+   "apertura": "2026-10-02T01:00:50Z",
+   "cierre": "2026-10-02T05:00:13Z",
+   "motivo_cierre": "tiempo",
+   "precio_apertura": 1.12675,
+   "precio_cierre": 1.12865,
+   "r": -0.79,
+   "pct": -0.388,
+   "r_simulado": -0.79,
+   "salida_simulada": "tiempo",
+   "segundos_entrada": 51
+  }
+ ],
+ "votaciones": [
+  {
+   "simbolo": "ES",
+   "momento": "2026-10-03T21:00:00Z",
+   "estado": "sin_votar",
+   "resultado": null,
+   "suma": null,
+   "fallos": null,
+   "motivo_sin_votar": "mercado cerrado",
+   "orden": null,
+   "votos": []
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-03T21:00:00Z",
+   "estado": "sin_votar",
+   "resultado": null,
+   "suma": null,
+   "fallos": null,
+   "motivo_sin_votar": "mercado cerrado",
+   "orden": null,
+   "votos": []
+  },
+  {
+   "simbolo": "GC",
+   "momento": "2026-10-03T21:00:00Z",
+   "estado": "sin_votar",
+   "resultado": null,
+   "suma": null,
+   "fallos": null,
+   "motivo_sin_votar": "mercado cerrado",
+   "orden": null,
+   "votos": []
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-03T21:00:00Z",
+   "estado": "sin_votar",
+   "resultado": null,
+   "suma": null,
+   "fallos": null,
+   "motivo_sin_votar": "mercado cerrado",
+   "orden": null,
+   "votos": []
+  },
+  {
+   "simbolo": "ZN",
+   "momento": "2026-10-03T21:00:00Z",
+   "estado": "sin_votar",
+   "resultado": null,
+   "suma": null,
+   "fallos": null,
+   "motivo_sin_votar": "mercado cerrado",
+   "orden": null,
+   "votos": []
+  }
+ ],
+ "senales": [
+  {
+   "simbolo": "GC",
+   "momento": "2026-10-02T16:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": -0.53
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T16:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": -0.03
+  },
+  {
+   "simbolo": "ZN",
+   "momento": "2026-10-02T15:00:00Z",
+   "resultado": "VENDER",
+   "suma": -4,
+   "orden": "enviada",
+   "r_simulado": 0.98
+  },
+  {
+   "simbolo": "GC",
+   "momento": "2026-10-02T15:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": 1.0
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T13:00:00Z",
+   "resultado": "VENDER",
+   "suma": -4,
+   "orden": "enviada",
+   "r_simulado": 0.21
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-02T13:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": -1.0
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T12:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": -1.02
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-02T09:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": -0.03
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T09:00:00Z",
+   "resultado": "VENDER",
+   "suma": -4,
+   "orden": "enviada",
+   "r_simulado": 0.98
+  },
+  {
+   "simbolo": "ZN",
+   "momento": "2026-10-02T08:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": -0.62
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-02T08:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": 0.99
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-02T07:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": 0.99
+  },
+  {
+   "simbolo": "GC",
+   "momento": "2026-10-02T06:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": 0.23
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T05:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": 0.0
+  },
+  {
+   "simbolo": "ES",
+   "momento": "2026-10-02T05:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": -0.59
+  },
+  {
+   "simbolo": "CL",
+   "momento": "2026-10-02T03:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": 0.82
+  },
+  {
+   "simbolo": "GC",
+   "momento": "2026-10-02T02:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": -1.0
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T01:00:00Z",
+   "resultado": "VENDER",
+   "suma": -3,
+   "orden": "enviada",
+   "r_simulado": -0.79
+  },
+  {
+   "simbolo": "6E",
+   "momento": "2026-10-02T00:00:00Z",
+   "resultado": "NO_OPERAR",
+   "suma": -2,
+   "orden": null,
+   "r_simulado": -0.18
+  }
+ ],
+ "simulado": {
+  "votaciones": 74,
+  "desde": "2026-10-01T23:00:00Z",
+  "ambiguas": 0,
+  "huecos": 0,
+  "por_ia": [
+   {
+    "familia": "Google",
+    "modelo": "google/gemini-3.8-flash",
+    "votos": 8,
+    "r_total": -0.5,
+    "r_medio": -0.062,
+    "acierto_pct": 50.0,
+    "error_tipico": 0.28,
+    "nada": 66,
+    "nada_bien_pct": 50.0,
+    "disponibilidad_pct": 100.0,
+    "cuenta_simulada": {
+     "operaciones": 7,
+     "rentabilidad_pct": -0.238,
+     "curva": [
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": 0.002
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -0.293
+      },
+      {
+       "t": "2026-10-02T11:04:00Z",
+       "pct": 0.197
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.313
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.826
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": -0.723
+      },
+      {
+       "t": "2026-10-02T17:23:00Z",
+       "pct": -0.238
+      }
+     ]
+    }
+   },
+   {
+    "familia": "Anthropic",
+    "modelo": "anthropic/claude-sonnet-5.5",
+    "votos": 1,
+    "r_total": -0.79,
+    "r_medio": -0.792,
+    "acierto_pct": 0.0,
+    "error_tipico": null,
+    "nada": 73,
+    "nada_bien_pct": 49.3,
+    "disponibilidad_pct": 100.0,
+    "cuenta_simulada": {
+     "operaciones": 1,
+     "rentabilidad_pct": -0.396,
+     "curva": [
+      {
+       "t": "2026-10-02T05:00:00Z",
+       "pct": -0.396
+      }
+     ]
+    }
+   },
+   {
+    "familia": "OpenAI",
+    "modelo": "openai/gpt-6-sol",
+    "votos": 25,
+    "r_total": 3.33,
+    "r_medio": 0.133,
+    "acierto_pct": 52.0,
+    "error_tipico": 0.157,
+    "nada": 49,
+    "nada_bien_pct": 51.0,
+    "disponibilidad_pct": 100.0,
+    "cuenta_simulada": {
+     "operaciones": 20,
+     "rentabilidad_pct": 1.033,
+     "curva": [
+      {
+       "t": "2026-10-02T00:41:00Z",
+       "pct": 0.497
+      },
+      {
+       "t": "2026-10-02T04:31:00Z",
+       "pct": -0.007
+      },
+      {
+       "t": "2026-10-02T05:00:00Z",
+       "pct": -0.403
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": 0.004
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": -0.046
+      },
+      {
+       "t": "2026-10-02T07:57:00Z",
+       "pct": 0.451
+      },
+      {
+       "t": "2026-10-02T08:46:00Z",
+       "pct": 0.95
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": 0.953
+      },
+      {
+       "t": "2026-10-02T10:00:00Z",
+       "pct": 1.066
+      },
+      {
+       "t": "2026-10-02T11:04:00Z",
+       "pct": 1.562
+      },
+      {
+       "t": "2026-10-02T12:00:00Z",
+       "pct": 1.25
+      },
+      {
+       "t": "2026-10-02T13:00:00Z",
+       "pct": 1.235
+      },
+      {
+       "t": "2026-10-02T13:15:00Z",
+       "pct": 0.727
+      },
+      {
+       "t": "2026-10-02T13:27:00Z",
+       "pct": 0.211
+      },
+      {
+       "t": "2026-10-02T13:55:00Z",
+       "pct": -0.293
+      },
+      {
+       "t": "2026-10-02T14:10:00Z",
+       "pct": 0.204
+      },
+      {
+       "t": "2026-10-02T15:57:00Z",
+       "pct": 0.704
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": 0.808
+      },
+      {
+       "t": "2026-10-02T17:23:00Z",
+       "pct": 1.301
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": 1.033
+      }
+     ]
+    }
+   },
+   {
+    "familia": "DeepSeek",
+    "modelo": "deepseek/deepseek-v4-pro-0813",
+    "votos": 25,
+    "r_total": -0.93,
+    "r_medio": -0.037,
+    "acierto_pct": 48.0,
+    "error_tipico": 0.148,
+    "nada": 44,
+    "nada_bien_pct": 43.2,
+    "disponibilidad_pct": 93.2,
+    "cuenta_simulada": {
+     "operaciones": 21,
+     "rentabilidad_pct": -0.353,
+     "curva": [
+      {
+       "t": "2026-10-02T03:05:00Z",
+       "pct": -0.501
+      },
+      {
+       "t": "2026-10-02T04:00:00Z",
+       "pct": -0.589
+      },
+      {
+       "t": "2026-10-02T04:00:00Z",
+       "pct": -0.725
+      },
+      {
+       "t": "2026-10-02T04:00:00Z",
+       "pct": -0.547
+      },
+      {
+       "t": "2026-10-02T07:57:00Z",
+       "pct": -0.053
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -0.05
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -0.345
+      },
+      {
+       "t": "2026-10-02T10:00:00Z",
+       "pct": -0.233
+      },
+      {
+       "t": "2026-10-02T11:00:00Z",
+       "pct": -0.332
+      },
+      {
+       "t": "2026-10-02T11:04:00Z",
+       "pct": 0.157
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.347
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.855
+      },
+      {
+       "t": "2026-10-02T13:00:00Z",
+       "pct": -0.869
+      },
+      {
+       "t": "2026-10-02T14:54:00Z",
+       "pct": -0.385
+      },
+      {
+       "t": "2026-10-02T15:09:00Z",
+       "pct": -0.886
+      },
+      {
+       "t": "2026-10-02T15:49:00Z",
+       "pct": -1.384
+      },
+      {
+       "t": "2026-10-02T15:57:00Z",
+       "pct": -0.892
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": -0.789
+      },
+      {
+       "t": "2026-10-02T17:23:00Z",
+       "pct": -0.304
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": -0.089
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": -0.353
+      }
+     ]
+    }
+   },
+   {
+    "familia": "Xiaomi",
+    "modelo": "xiaomi/mimo-v2.6-flash",
+    "votos": 17,
+    "r_total": 0.57,
+    "r_medio": 0.033,
+    "acierto_pct": 41.2,
+    "error_tipico": 0.19,
+    "nada": 46,
+    "nada_bien_pct": 54.3,
+    "disponibilidad_pct": 85.1,
+    "cuenta_simulada": {
+     "operaciones": 14,
+     "rentabilidad_pct": 0.038,
+     "curva": [
+      {
+       "t": "2026-10-02T03:05:00Z",
+       "pct": -0.501
+      },
+      {
+       "t": "2026-10-02T04:00:00Z",
+       "pct": -0.589
+      },
+      {
+       "t": "2026-10-02T05:00:00Z",
+       "pct": -0.911
+      },
+      {
+       "t": "2026-10-02T05:00:00Z",
+       "pct": -1.137
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": -0.733
+      },
+      {
+       "t": "2026-10-02T07:57:00Z",
+       "pct": -0.24
+      },
+      {
+       "t": "2026-10-02T08:46:00Z",
+       "pct": 0.256
+      },
+      {
+       "t": "2026-10-02T11:04:00Z",
+       "pct": 0.748
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": 0.23
+      },
+      {
+       "t": "2026-10-02T13:00:00Z",
+       "pct": 0.215
+      },
+      {
+       "t": "2026-10-02T13:55:00Z",
+       "pct": -0.289
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": -0.185
+      },
+      {
+       "t": "2026-10-02T17:23:00Z",
+       "pct": 0.303
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": 0.038
+      }
+     ]
+    }
+   }
+  ],
+  "referencias": [
+   {
+    "nombre": "Comité",
+    "descripcion": "lo que decidió el comité, con la misma simulación",
+    "votos": 10,
+    "r_total": 1.19,
+    "r_medio": 0.119,
+    "acierto_pct": 50.0,
+    "error_tipico": 0.213,
+    "cuenta_simulada": {
+     "operaciones": 9,
+     "rentabilidad_pct": 0.609,
+     "curva": [
+      {
+       "t": "2026-10-02T05:00:00Z",
+       "pct": -0.396
+      },
+      {
+       "t": "2026-10-02T07:57:00Z",
+       "pct": 0.099
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -0.196
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -0.194
+      },
+      {
+       "t": "2026-10-02T11:04:00Z",
+       "pct": 0.296
+      },
+      {
+       "t": "2026-10-02T13:00:00Z",
+       "pct": 0.281
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": 0.386
+      },
+      {
+       "t": "2026-10-02T17:23:00Z",
+       "pct": 0.876
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": 0.609
+      }
+     ]
+    }
+   },
+   {
+    "nombre": "Siempre comprar",
+    "descripcion": "comprar en todas las votaciones",
+    "votos": 74,
+    "r_total": 2.55,
+    "r_medio": 0.034,
+    "acierto_pct": 51.4,
+    "error_tipico": 0.089,
+    "cuenta_simulada": {
+     "operaciones": 35,
+     "rentabilidad_pct": -2.531,
+     "curva": [
+      {
+       "t": "2026-10-02T00:59:00Z",
+       "pct": -0.501
+      },
+      {
+       "t": "2026-10-02T03:00:00Z",
+       "pct": -0.33
+      },
+      {
+       "t": "2026-10-02T03:00:00Z",
+       "pct": -0.513
+      },
+      {
+       "t": "2026-10-02T03:00:00Z",
+       "pct": -0.592
+      },
+      {
+       "t": "2026-10-02T03:00:00Z",
+       "pct": -0.609
+      },
+      {
+       "t": "2026-10-02T03:31:00Z",
+       "pct": -0.113
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": -0.079
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": -0.51
+      },
+      {
+       "t": "2026-10-02T07:00:00Z",
+       "pct": -0.295
+      },
+      {
+       "t": "2026-10-02T07:57:00Z",
+       "pct": -0.797
+      },
+      {
+       "t": "2026-10-02T08:00:00Z",
+       "pct": -0.624
+      },
+      {
+       "t": "2026-10-02T08:46:00Z",
+       "pct": -1.124
+      },
+      {
+       "t": "2026-10-02T09:00:00Z",
+       "pct": -1.167
+      },
+      {
+       "t": "2026-10-02T10:22:00Z",
+       "pct": -1.67
+      },
+      {
+       "t": "2026-10-02T11:00:00Z",
+       "pct": -1.686
+      },
+      {
+       "t": "2026-10-02T12:00:00Z",
+       "pct": -1.781
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -1.293
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.814
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": -0.327
+      },
+      {
+       "t": "2026-10-02T12:30:00Z",
+       "pct": 0.17
+      },
+      {
+       "t": "2026-10-02T13:00:00Z",
+       "pct": 0.172
+      },
+      {
+       "t": "2026-10-02T13:15:00Z",
+       "pct": -0.33
+      },
+      {
+       "t": "2026-10-02T13:27:00Z",
+       "pct": -0.841
+      },
+      {
+       "t": "2026-10-02T13:55:00Z",
+       "pct": -0.348
+      },
+      {
+       "t": "2026-10-02T14:10:00Z",
+       "pct": -0.849
+      },
+      {
+       "t": "2026-10-02T14:52:00Z",
+       "pct": -1.356
+      },
+      {
+       "t": "2026-10-02T14:54:00Z",
+       "pct": -1.85
+      },
+      {
+       "t": "2026-10-02T15:09:00Z",
+       "pct": -2.344
+      },
+      {
+       "t": "2026-10-02T15:49:00Z",
+       "pct": -1.858
+      },
+      {
+       "t": "2026-10-02T15:57:00Z",
+       "pct": -2.349
+      },
+      {
+       "t": "2026-10-02T16:47:00Z",
+       "pct": -2.849
+      },
+      {
+       "t": "2026-10-02T17:00:00Z",
+       "pct": -2.985
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": -2.988
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": -2.74
+      },
+      {
+       "t": "2026-10-02T20:00:00Z",
+       "pct": -2.531
+      }
+     ]
+    }
+   },
+   {
+    "nombre": "Al azar",
+    "descripcion": "la media de comprar y vender: lo que da no tener ventaja",
+    "votos": 74,
+    "r_total": -3.47,
+    "r_medio": -0.047,
+    "acierto_pct": null,
+    "error_tipico": 0.015,
+    "cuenta_simulada": null
+   }
+  ]
+ },
+ "comite": {
+  "votaciones": 74,
+  "umbral_actual": 3,
+  "umbrales": [
+   {
+    "umbral": 1,
+    "r_total": -2.1,
+    "r_medio": -0.048,
+    "acierto_pct": 43.2,
+    "error_tipico": 0.119,
+    "operaciones": 44
+   },
+   {
+    "umbral": 2,
+    "r_total": 0.41,
+    "r_medio": 0.022,
+    "acierto_pct": 47.4,
+    "error_tipico": 0.174,
+    "operaciones": 19
+   },
+   {
+    "umbral": 3,
+    "r_total": 1.19,
+    "r_medio": 0.119,
+    "acierto_pct": 50.0,
+    "error_tipico": 0.213,
+    "operaciones": 10
+   },
+   {
+    "umbral": 4,
+    "r_total": 2.17,
+    "r_medio": 0.722,
+    "acierto_pct": 100.0,
+    "error_tipico": 0.257,
+    "operaciones": 3
+   },
+   {
+    "umbral": 5,
+    "r_total": 0.0,
+    "r_medio": null,
+    "acierto_pct": null,
+    "error_tipico": null,
+    "operaciones": 0
+   }
+  ],
+  "pares": [
+   {
+    "a": "Google",
+    "b": "Anthropic",
+    "votaciones": 74,
+    "iguales": 65,
+    "direccionales": 0,
+    "contrarios": 0
+   },
+   {
+    "a": "Google",
+    "b": "OpenAI",
+    "votaciones": 74,
+    "iguales": 53,
+    "direccionales": 6,
+    "contrarios": 0
+   },
+   {
+    "a": "Google",
+    "b": "DeepSeek",
+    "votaciones": 69,
+    "iguales": 48,
+    "direccionales": 6,
+    "contrarios": 0
+   },
+   {
+    "a": "Google",
+    "b": "Xiaomi",
+    "votaciones": 63,
+    "iguales": 46,
+    "direccionales": 4,
+    "contrarios": 0
+   },
+   {
+    "a": "Anthropic",
+    "b": "OpenAI",
+    "votaciones": 74,
+    "iguales": 50,
+    "direccionales": 1,
+    "contrarios": 0
+   },
+   {
+    "a": "Anthropic",
+    "b": "DeepSeek",
+    "votaciones": 69,
+    "iguales": 45,
+    "direccionales": 1,
+    "contrarios": 0
+   },
+   {
+    "a": "Anthropic",
+    "b": "Xiaomi",
+    "votaciones": 63,
+    "iguales": 45,
+    "direccionales": 0,
+    "contrarios": 0
+   },
+   {
+    "a": "OpenAI",
+    "b": "DeepSeek",
+    "votaciones": 69,
+    "iguales": 43,
+    "direccionales": 12,
+    "contrarios": 0
+   },
+   {
+    "a": "OpenAI",
+    "b": "Xiaomi",
+    "votaciones": 63,
+    "iguales": 44,
+    "direccionales": 10,
+    "contrarios": 0
+   },
+   {
+    "a": "DeepSeek",
+    "b": "Xiaomi",
+    "votaciones": 59,
+    "iguales": 38,
+    "direccionales": 8,
+    "contrarios": 0
+   }
+  ],
+  "aportacion": [
+   {
+    "familia": "Google",
+    "decisiva": {
+     "r_total": -0.62,
+     "r_medio": -0.206,
+     "acierto_pct": 33.3,
+     "error_tipico": 0.192,
+     "operaciones": 3
+    },
+    "sin_ella": {
+     "r_total": 1.81,
+     "r_medio": 0.259,
+     "acierto_pct": 57.1,
+     "error_tipico": 0.284,
+     "operaciones": 7
+    }
+   },
+   {
+    "familia": "Anthropic",
+    "decisiva": {
+     "r_total": -0.79,
+     "r_medio": -0.792,
+     "acierto_pct": 0.0,
+     "error_tipico": null,
+     "operaciones": 1
+    },
+    "sin_ella": {
+     "r_total": 1.98,
+     "r_medio": 0.22,
+     "acierto_pct": 55.6,
+     "error_tipico": 0.209,
+     "operaciones": 9
+    }
+   },
+   {
+    "familia": "OpenAI",
+    "decisiva": {
+     "r_total": -0.97,
+     "r_medio": -0.139,
+     "acierto_pct": 28.6,
+     "error_tipico": 0.224,
+     "operaciones": 7
+    },
+    "sin_ella": {
+     "r_total": 2.17,
+     "r_medio": 0.722,
+     "acierto_pct": 100.0,
+     "error_tipico": 0.257,
+     "operaciones": 3
+    }
+   },
+   {
+    "familia": "DeepSeek",
+    "decisiva": {
+     "r_total": -0.94,
+     "r_medio": -0.157,
+     "acierto_pct": 33.3,
+     "error_tipico": 0.264,
+     "operaciones": 6
+    },
+    "sin_ella": {
+     "r_total": 2.13,
+     "r_medio": 0.534,
+     "acierto_pct": 75.0,
+     "error_tipico": 0.262,
+     "operaciones": 4
+    }
+   },
+   {
+    "familia": "Xiaomi",
+    "decisiva": {
+     "r_total": 0.4,
+     "r_medio": 0.101,
+     "acierto_pct": 25.0,
+     "error_tipico": 0.32,
+     "operaciones": 4
+    },
+    "sin_ella": {
+     "r_total": 0.79,
+     "r_medio": 0.132,
+     "acierto_pct": 66.7,
+     "error_tipico": 0.307,
+     "operaciones": 6
+    }
+   }
+  ]
+ },
+ "salud": {
+  "desde": "2026-10-02T21:00:00Z",
+  "hasta": "2026-10-03T20:00:00Z",
+  "horas": [
+   {
+    "hora": "2026-10-02T21:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-02T22:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-02T23:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T00:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T01:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T02:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T03:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T04:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T05:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T06:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T07:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T08:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T09:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T10:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T11:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T12:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T13:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T14:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T15:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T16:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T17:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T18:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T19:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   },
+   {
+    "hora": "2026-10-03T20:00:00Z",
+    "estado": "rutina",
+    "mercado_abierto": false,
+    "votadas": 0,
+    "fallos": 0,
+    "problemas": []
+   }
+  ],
+  "comite_segundos": null,
+  "por_ia": [
+   {
+    "familia": "Google",
+    "modelo": "google/gemini-3.8-flash",
+    "proveedor": "google-ai-studio",
+    "votos": 0,
+    "fallos": 0,
+    "tipos": []
+   },
+   {
+    "familia": "Anthropic",
+    "modelo": "anthropic/claude-sonnet-5.5",
+    "proveedor": "anthropic",
+    "votos": 0,
+    "fallos": 0,
+    "tipos": []
+   },
+   {
+    "familia": "OpenAI",
+    "modelo": "openai/gpt-6-sol",
+    "proveedor": "openai",
+    "votos": 0,
+    "fallos": 0,
+    "tipos": []
+   },
+   {
+    "familia": "DeepSeek",
+    "modelo": "deepseek/deepseek-v4-pro-0813",
+    "proveedor": "digitalocean",
+    "votos": 0,
+    "fallos": 0,
+    "tipos": []
+   },
+   {
+    "familia": "Xiaomi",
+    "modelo": "xiaomi/mimo-v2.6-flash",
+    "proveedor": "inference-net/fp8",
+    "votos": 0,
+    "fallos": 0,
+    "tipos": []
+   }
+  ],
+  "ordenes": {
+   "enviadas": 0,
+   "incidencias": []
+  }
+ },
+ "cambios": [
+  {
+   "familia": "DeepSeek",
+   "modelo": "deepseek/deepseek-v4-pro-0813",
+   "proveedor": "deepinfra/fp8",
+   "desde": "2026-10-01T23:00:45Z",
+   "hasta": "2026-10-01T23:00:45Z",
+   "votos": 5
+  },
+  {
+   "familia": "Google",
+   "modelo": "google/gemini-3.8-flash",
+   "proveedor": "google-ai-studio",
+   "desde": "2026-10-01T23:00:45Z",
+   "hasta": "2026-10-02T17:00:44Z",
+   "votos": 76
+  },
+  {
+   "familia": "Xiaomi",
+   "modelo": "xiaomi/mimo-v2.6-flash",
+   "proveedor": "deepinfra/fp8",
+   "desde": "2026-10-01T23:00:45Z",
+   "hasta": "2026-10-02T17:00:44Z",
+   "votos": 76
+  },
+  {
+   "familia": "Anthropic",
+   "modelo": "anthropic/claude-sonnet-5.5",
+   "proveedor": "anthropic",
+   "desde": "2026-10-01T23:00:45Z",
+   "hasta": "2026-10-02T17:00:44Z",
+   "votos": 76
+  },
+  {
+   "familia": "OpenAI",
+   "modelo": "openai/gpt-6-sol",
+   "proveedor": "openai",
+   "desde": "2026-10-01T23:00:45Z",
+   "hasta": "2026-10-02T17:00:44Z",
+   "votos": 76
+  },
+  {
+   "familia": "DeepSeek",
+   "modelo": "deepseek/deepseek-v4-pro-0813",
+   "proveedor": "digitalocean",
+   "desde": "2026-10-02T00:00:44Z",
+   "hasta": "2026-10-02T17:00:44Z",
+   "votos": 71
+  }
+ ]
+}
